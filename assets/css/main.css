@@ -1,4 +1,8 @@
 @import '../fonts/fonts.css';
+@import '../../components/dz3_page/page.css';
+@import '../../components/dz3_footer/footer.css';
+@import '../../components/dz3_main/main.css';
+@import '../../components/dz3_header/header.css';
 
 :root {
     --white: #ffffff;

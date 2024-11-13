@@ -1,0 +1,37 @@
+.footer {
+     background-color:  #FFFFFF;
+}
+
+.footer__title {
+    width: 111px;
+    height: 48px;
+    margin-top: 122px;
+    margin-left: 682px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:  #212429;
+}
+
+.footer__description {
+    width: 640px;
+    height: 96px;
+    margin-top: 32px;
+    margin-left: 417px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#212429;
+}

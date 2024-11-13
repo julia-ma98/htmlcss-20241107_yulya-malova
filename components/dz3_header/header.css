@@ -1,0 +1,21 @@
+.header {
+    background-color: #FFFFFF;
+    ;
+}
+
+.header__title {
+    width: 670px;
+    height: 64px;
+    margin-top: 96px;
+    margin-left: 160px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 64px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212429;
+} 
