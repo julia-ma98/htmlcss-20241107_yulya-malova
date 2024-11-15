@@ -1,22 +1,30 @@
 /* Стилизация кнопки */
 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
 .button {
     width: 189px;
     height: 48px;
     border-radius: 8px;
+    cursor: pointer; 
 }
 
 .button__primary {
-    background: #4263EB;
+    background: var(--blue);
     border: none;
-    font-family: Roboto;
+    font-family: 'Roboto' sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
     text-align: center;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .button__primary:hover {
@@ -29,16 +37,15 @@
 }
 
 .button__secondary {
-    background: #7048E8;
+    background: var(--purple);
     border: none;
-    font-family: Roboto;
+    font-family: 'Roboto' sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
     text-align: center;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
 .button__secondary:hover {
@@ -51,20 +58,19 @@
 }
 
 .button__alternate {
-    background: #FFFFFF;
-    border: 1px solid #ACB5BD;
-    font-family: Roboto;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    font-family: 'Roboto' sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
     text-align: center;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #495057;
+    color: var(--grey-4);
 }
 
 .button__alternate:hover {
-    border-color: black;
+    border-color: var(--black);
 }
 
 .button__alternate:disabled {
