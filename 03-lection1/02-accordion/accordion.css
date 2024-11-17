@@ -1,14 +1,9 @@
 /* Стилизация аккордеона */
 .accordion__item {
-    margin-bottom: 8px;
     width: 730px;
     height: 72px;
-    margin-top: 227px;
-    margin-left: 544px;
-    gap: 0px;
     border-radius: 8px 0px 0px 0px;
     border: 1px 0px 0px 0px;
-    opacity: 0px;
     background: #FFFFFF;
     border: 1px solid #ACB5BD
 }
@@ -18,12 +13,12 @@
 }
 
 .accordion__summary {
-    font-family: Inter;
+    padding: 24px 32px;
+    font-family: 'Inter' sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #000000;
 }
