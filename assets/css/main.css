@@ -1,5 +1,12 @@
+@import './normalize.css';
 @import '../fonts/fonts.css';
-
+@import '../../03-lection1/01-button/button.css';
+@import '../../components/dz3_page/page.css';
+@import '../../components/dz3_footer/footer.css';
+@import '../../components/dz3_content/content.css';
+@import '../../components/dz3_header/header.css';
+@import '../../components/dz3_container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -20,6 +27,10 @@
     --secondary: var(--purple);
 }
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
 }
