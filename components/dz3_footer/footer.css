@@ -1,6 +1,7 @@
 .footer {
      background-color:  #FFFFFF;
      padding: 72px 383px 136px 417px;
+     text-align: center;
 }
 
 .footer__title {
@@ -10,7 +11,6 @@
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
-    text-align: center;
     color: #212429;
 }
 
@@ -20,6 +20,5 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
     color: #212429;
 }

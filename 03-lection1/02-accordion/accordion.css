@@ -1,29 +1,45 @@
 /* Стилизация аккордеона */
-.accordion__item {
-    width: 730px;
-    height: 72px;
-    border-radius: 8px 0px 0px 0px;
-    border: 1px 0px 0px 0px;
+
+
+.accordion {
+    max-width: 730px;
+    border-radius: 8px;
+    font-family: 'Inter' sans-serif;
     background: #FFFFFF;
-    border: 1px solid #ACB5BD
+    border: 1px solid #ACB5BD; 
+    overflow: hidden; 
+} 
+
+.accordion__item {
+    display: inline-block;
+    /* margin-bottom: 8px; */
+    padding: 24px 32px 16px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    border: none;
+    cursor: pointer;
 }
 
 .accordion__item:last-child {
     margin-bottom: 0;
 }
 
-.accordion__summary {
-    padding: 24px 32px;
-    font-family: 'Inter' sans-serif;
-    font-size: 16px;
+.accordion__content {
+    padding: 0 48px 32px 32px;
+    font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
-    text-align: left;
-    text-decoration-skip-ink: none;
-    color: #000000;
+    color: #495057;
 }
 
-.accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
+.accordion__item::-webkit-details-marker {  
     display: none;
-   
+}
+
+.accordions {
+    margin-bottom: 8px;
 }
