@@ -2,17 +2,17 @@
 
 
 .accordion {
-    max-width: 730px;
+    padding: 24px 0 24px 32px;
     border-radius: 8px;
     font-family: 'Inter' sans-serif;
     background: #FFFFFF;
     border: 1px solid #ACB5BD; 
     overflow: hidden; 
+    margin-bottom: 8px;
 } 
 
-.accordion__item {
+.accordion__summary {
     display: inline-block;
-    padding: 24px 32px 16px 32px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -22,12 +22,12 @@
     cursor: pointer;
 }
 
-.accordion__item:last-child {
+.accordion:last-child {
     margin-bottom: 0;
 }
 
-.accordion__content {
-    padding: 0 48px 32px 32px;
+.accordion__title {
+    padding: 16px 48px 32px 0px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -35,10 +35,7 @@
     color: #495057;
 }
 
-.accordion__item::-webkit-details-marker {  
+.accordion__summary::-webkit-details-marker {  
     display: none;
 }
 
-.accordions {
-    margin-bottom: 8px;
-}
