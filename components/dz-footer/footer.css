@@ -1,12 +1,13 @@
-footer {
+.footer {
     background-color:  #FFFFFF;
-    padding: 72px 383px 136px 417px;
+    padding: 72px 0 136px 0px;
     text-align: center;
+    font-family: 'Inter' sans-serif;
 }
 
 .footer__title {
-   padding: 0 0 32px;
-   font-family: 'Inter' sans-serif;
+   padding-bottom: 32px;
+   margin: 0;
    font-style: normal;
    font-weight: 500;
    font-size: 38px;
@@ -15,7 +16,6 @@ footer {
 }
 
 .footer__description {
-   font-family: 'Inter' sans-serif;
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
