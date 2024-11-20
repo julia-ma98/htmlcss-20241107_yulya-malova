@@ -1,0 +1,24 @@
+.footer {
+    background-color:  #FFFFFF;
+    padding: 72px 0 136px 0px;
+    text-align: center;
+    font-family: 'Inter' sans-serif;
+}
+
+.footer__title {
+   padding-bottom: 32px;
+   margin: 0;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 38px;
+   line-height: 48px;
+   color: #212429;
+}
+
+.footer__description {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #212429;
+}
