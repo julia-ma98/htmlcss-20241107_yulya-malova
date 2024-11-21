@@ -1,9 +1,7 @@
 .calendar {
-    display: block;
     border: 1px solid #ACB5BD;
-    width: 100%;
     max-width: 304px;
-    padding: 28px 30px 0;
+    padding: 28px 26px 32px;
     border-radius: 8px;
 }
 
@@ -34,41 +32,37 @@
     height: 100%;
 }
 
-.calendar__item_week {
+.calendar__item {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Inter' sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 20px;
     text-align: center;
+}
+
+.calendar__item_week {
+    font-family: 'Inter' sans-serif;
+    font-size: 14px;
     color: #90A0B7;
 }
 
 .calendar__item_day {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Source Sans Pro' sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 20px;
-    text-align: center;
     color: #334D6E;
 }
 
-.calendar__item:nth-child(8) { 
+.calendar__item_first { 
     grid-column-start: 5;
 }
 
-.calendar__item:nth-child(25), .calendar__item:nth-child(30) {
+.calendar__item_text-accent {
     background: #4263EB;
     color: #FFFFFF;
 }
 
-.calendar__item:nth-child(26), .calendar__item:nth-child(27), .calendar__item:nth-child(28), .calendar__item:nth-child(29) {
+.calendar__item_accents {
     background-color: #a0b1f535;
 }
