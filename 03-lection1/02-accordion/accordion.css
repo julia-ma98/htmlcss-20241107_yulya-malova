@@ -2,6 +2,10 @@
 
 
 .accordion {
+    
+}
+
+.accordion__item {
     padding: 24px 0 24px 32px;
     border-radius: 8px;
     font-family: 'Inter' sans-serif;
@@ -22,7 +26,7 @@
     cursor: pointer;
 }
 
-.accordion:last-child {
+.accordion__item:last-child {
     margin-bottom: 0;
 }
 
