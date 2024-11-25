@@ -1,6 +1,5 @@
 
 .skeleton {
-    width: 579px;
     display: flex;
     flex-direction: column;
     padding: 24px 40px 32px 24px;
@@ -26,6 +25,7 @@
    display: flex;
    gap: 8px;
    flex-direction: column;
+   width: 100%;
 }
 
 .skeleton__line {
@@ -33,14 +33,14 @@
     height: 20px;
 }
 
-.skeleton__line_one {
-    width: 172px;
+.skeleton__line_small {
+    width: 30%;
 }
 
-.skeleton__line_two {
-    width: 257px;
+.skeleton__line_medium {
+    width: 50%;
 }
 
 .skeleton__line_big {
-    width: 515px;
+    width: 100%;
 }
