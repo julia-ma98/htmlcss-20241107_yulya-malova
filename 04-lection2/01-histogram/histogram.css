@@ -37,11 +37,11 @@
     display: flex;
     align-items: flex-end;
     height: 50px;
-    margin-top: 30px;
+    margin-top: 39px;
     column-gap: 1px;
 }
     
 .histogram__bar {
     background: #4263EB;
-    flex-grow: 1
+    flex-grow: 1;
 }
