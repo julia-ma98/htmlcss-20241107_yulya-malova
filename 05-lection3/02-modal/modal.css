@@ -1,10 +1,6 @@
-@import '/03-lection1/01-button/button.css';
+
 
 .modal {
-    position: relative;
-}
-
-.modal__popup {
     display: none;
     position: fixed;
     width: 100%;
@@ -15,9 +11,10 @@
     z-index: 1;
 }
 
+
 .modal__content {
     padding: 30px 40px 33px 40px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -48,6 +45,3 @@
     color: #495057;
 }
 
-.modal__close {
-    
-}

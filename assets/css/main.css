@@ -6,6 +6,7 @@
 @import '../../components/dz-header/header.css';
 @import '../../components/dz-container/container.css';
 @import '../../components/dz-card/card.css';
+@import '/03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
