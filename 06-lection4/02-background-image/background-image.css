@@ -4,9 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    @media(min-width:400px) {
-        background-image: url(./public/forest_400.jpg);
-    }
+    background-image: url(./public/forest_400.jpg);
     @media(min-width:768px) {
         background-image: url(./public/forest_768.jpg);
     }
