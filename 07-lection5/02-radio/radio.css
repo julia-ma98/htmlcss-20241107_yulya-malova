@@ -25,6 +25,15 @@
     justify-content: center;
 }
 
+.radio__control::before {
+    position: absolute;
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 14px;
+    background: #FFFFFF;
+}
+
 .radio__label {
     font-family: 'Inter' sans-serif;
     font-size: 16px;
@@ -33,17 +42,12 @@
     color: #495057;
 }
 
-.radio__icon {
-    display: none;
-    color: #4263EB;
-}
-
 .radio__input:checked ~ .radio__state .radio__control {
     border: 2px solid #4263EB;
 }
 
-.radio__input:checked ~ .radio__state .radio__icon {
-    display: block;
+.radio__input:checked ~ .radio__state .radio__control::before {
+    background-color: #4263EB;
 }
 
 .radio__input:focus ~ .radio__state .radio__label {
@@ -51,6 +55,14 @@
 }
 
 .radio__input:disabled ~ .radio__state .radio__control {
+    background: #DDE2E5;
+}
+
+.radio__input:disabled ~ .radio__state {
+    pointer-events: none;
+}
+
+.radio__input:disabled ~ .radio__state .radio__control::before {
     background: #DDE2E5;
 }
 
