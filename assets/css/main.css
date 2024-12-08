@@ -6,10 +6,11 @@
 @import '../../components/dz-header/header.css';
 @import '../../components/dz-container/container.css';
 @import '../../components/dz-card/card.css';
-@import '../../components/dz-desc-page/desc-page.css';
+@import '../../components/dz-template-desc/template-desc.css';
 @import '../../components/dz-sidebar/sidebar.css';
 @import '../../pages/template.css';
 @import '/03-lection1/01-button/button.css';
+@import '/04-lection2/01-histogram/histogram.css';
 
 :root {
     --white: #ffffff;

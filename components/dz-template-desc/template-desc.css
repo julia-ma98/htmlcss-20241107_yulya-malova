@@ -1,7 +1,7 @@
 .template__desc {
+    padding: 32px 48px;
     margin: 36px 165px 0 0;
     grid-area: template;
-    max-width: 825px;
     background-color: var(--white);
     border-radius: 12px;
     box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
