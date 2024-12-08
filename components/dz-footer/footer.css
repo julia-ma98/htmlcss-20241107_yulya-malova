@@ -22,3 +22,15 @@
    line-height: 24px;
    color: #212429;
 }
+
+.footer_page {
+   grid-area: footer;
+   padding: 92px 0 56px 0;
+   background: #F9FAFC;
+   color: #ACB5BD;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 18px;
+   letter-spacing: 0.48px;
+   text-transform: uppercase;
+}

@@ -11,3 +11,8 @@
     line-height: 64px;
     color: #212429;
 }
+
+.header_page {
+    grid-area: header;
+    padding-bottom: 36px;
+}
