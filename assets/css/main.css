@@ -9,6 +9,7 @@
 @import '../../components/dz-desc-page/desc-page.css';
 @import '../../components/dz-sidebar/sidebar.css';
 @import '../../pages/template.css';
+@import '/03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
