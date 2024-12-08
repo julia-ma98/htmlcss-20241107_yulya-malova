@@ -57,7 +57,7 @@
     color: var(--black);
 }
 
-.sidebar__link:hover {
+.sidebar__link:active {
     color: #D84910;
 }
 
