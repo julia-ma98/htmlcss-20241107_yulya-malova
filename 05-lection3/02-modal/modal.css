@@ -1,5 +1,4 @@
 
-
 .modal {
     display: none;
     position: fixed;
@@ -45,3 +44,8 @@
     color: #495057;
 }
 
+.icon {
+    color:#495057;
+    width: 20px;
+    height: 20px;
+}
