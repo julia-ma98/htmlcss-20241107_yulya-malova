@@ -1,15 +1,16 @@
 .sidebar {
-    grid-area: sidebar;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 36px 165px 0 165px;
+    padding-top: 36px;
+    width: 229px;
 }
 
 .sidebar__menu {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    grid-area: sidebar;
 }
 
 .sidebar__title {

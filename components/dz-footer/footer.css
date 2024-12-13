@@ -3,6 +3,7 @@
     padding: 72px 0 136px 0px;
     text-align: center;
     font-family: 'Inter' sans-serif;
+    grid-area: footer;
 }
 
 .footer__title {
@@ -24,7 +25,6 @@
 }
 
 .footer_page {
-   grid-area: footer;
    padding: 92px 0 56px 0;
    background: #F9FAFC;
    color: #ACB5BD;
