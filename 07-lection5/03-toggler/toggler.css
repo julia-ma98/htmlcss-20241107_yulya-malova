@@ -1,0 +1,69 @@
+.toggler {
+    display: inline-block;
+    position: relative;
+}
+
+.toggler__input {
+    position: absolute;
+    left: -100vw;
+}
+
+.toggler__state {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.toggler__control {
+    width: 52px;
+    height: 28px;
+    border-radius: 16px;
+    border: 1px solid #DDE2E5;
+}
+
+.toggler__control::before {
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: #DDE2E5;
+    border-radius: 16px;
+    top: 2px;
+    bottom: 0;
+    left: 2px;
+}
+
+.toggler__label {
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #495057;
+}
+
+.toggler__input:checked ~ .toggler__state .toggler__control {
+    background: #4263EB;
+    border: 1px solid #4263EB;
+}
+
+.toggler__input:checked ~ .toggler__state .toggler__control::before {
+    transform: translateX(100%); 
+    background: #FFFFFF;
+}
+
+.toggler__input:focus ~ .toggler__state .toggler__label {
+    text-decoration: underline;
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__control {
+    background: #DDE2E5;
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__control::before {
+    background: #ACB5BD;
+    opacity: 25%;
+}
+
+.toggler__input:disabled ~ .toggler__state {
+    pointer-events: none;
+}

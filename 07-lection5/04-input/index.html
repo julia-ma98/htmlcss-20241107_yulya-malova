@@ -5,10 +5,23 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
-    <body>
-        <input type="text" class="input input_type_text input_label" placeholder="Placeholder" />
-        <input type="text" class="input input_type_text input_success" placeholder="Success" />
-        <input type="text" class="input input_type_text input_invalid" placeholder="Error" />
+    <body>        
+        <div class="inputs">
+            <input type="text" class="input input_label" placeholder="Placeholder" />
+        </div>
 
+        <div class="inputs">
+            <div class="input__icon input__icon_succes">
+                <svg><use href="../../assets/images/sprite.svg#check-mark-circle"></use></svg>
+            </div>
+            <input type="text" class="input input_success" disabled placeholder="Success" />
+        </div>
+
+        <div class="inputs">
+            <div class="input__icon input__icon_error">
+                <svg><use href="../../assets/images/sprite.svg#exclamation-mark"></use></svg>
+            </div>
+                <input type="text" class="input input_invalid" disabled placeholder="Error" /> 
+        </div>
     </body>
 </html>
