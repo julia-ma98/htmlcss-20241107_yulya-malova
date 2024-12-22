@@ -1,7 +1,6 @@
 .header {
     background-color: var(--white);
     padding: 96px 0 77px;
-    grid-area: header;
 }
 
 .header__title {
@@ -13,7 +12,6 @@
     color: #212429;
 }
 
-.header_page {
-    padding-bottom: 36px;
-    background-color: transparent;
+.header_template {
+    background: #F9FAFC;
 }

@@ -10,4 +10,37 @@
 
 .page_inner {
     background: #F9FAFC;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+            'header header'
+            'sidebar template'
+            'footer footer';
 }
+
+.page__header {
+    padding-bottom: 36px;
+    background-color: transparent;
+    grid-area: header;
+}
+
+.page__sidebar {
+    grid-area: sidebar;
+}
+
+.page__template {
+    grid-area: template;
+}
+
+.page__footer {
+    padding: 92px 0 56px 0;
+    background: #F9FAFC;
+    color: #ACB5BD;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    grid-area: footer;
+ }
