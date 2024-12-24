@@ -1,5 +1,7 @@
 /* Стилизация аккордеона */
 .accordion {
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter' sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -16,8 +18,10 @@
 } 
 
 .accordion__summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 24px 32px 24px 32px;
-    display: inline-block;
     text-align: left;
     color: #000000;
     border: none;
@@ -35,4 +39,14 @@
 
 .accordion__summary::-webkit-details-marker {  
     display: none;
+}
+
+.accordion__icon {
+    width: 24px;
+    height: 24px;
+    color: #495057;
+}
+
+.accordion__item[open] .accordion__icon {
+    transform: rotate(180deg);
 }
