@@ -23,6 +23,16 @@
    color: #212429;
 }
 
-.footer__template {
+.footer_template {
    background: #F9FAFC;
+}
+
+.footer__text {
+   padding: 92px 0 56px 0;
+   color: #ACB5BD;
+   font-size: 12px;
+   font-weight: 500;
+   line-height: 18px;
+   letter-spacing: 0.48px;
+   text-transform: uppercase;
 }
