@@ -1,9 +1,20 @@
-.inputs {
-    position: relative;
+.input {
     display: inline-block;
+    font-family: 'Inter' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    text-decoration-skip-ink: none;
 }
 
-.input {
+.input__wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input__control {
     width: 350px;
     height: 56px;
     border: 1px solid #DDE2E5;
@@ -13,60 +24,64 @@
     padding-right: 40px;
 }
 
-.input_label {
-    border: 1px solid #DDE2E5;
-}
-
-.input:focus {
+.input__control:focus {
     border: 1px solid #4263EB;
     box-shadow: 0px 1px 1px 0px #339AF01A;
 }
 
-.input_success {
+.input__success {
     border: 1px solid #374FC7;
 }
 
-.input_success:focus {
+.input__success:focus {
     border: 1px solid #374FC7;
 }
 
-.input_invalid {
+.input__invalid {
     border: 1px solid #F03D3E;
     box-shadow: 0px 1px 1px 0px #F03D3E1A;
 }
 
-.input_invalid:focus {
+.input__invalid:focus {
     border: 1px solid #F03D3E;
     box-shadow: 0px 1px 1px 0px #F03D3E1A;
 }
 
 .input::placeholder {
-    font-family: 'Inter' sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: left;
-    text-decoration-skip-ink: none;
     color: #AAAAAA;
 }
 
-.input_invalid::placeholder, .input_success::placeholder {
+.input__invalid::placeholder, .input__success::placeholder {
     color: #495057;
 }
 
 .input__icon {
+    display: none;
     width: 24px;
     height: 24px;
     position: absolute;
     top: 50%;
-    left: 310px;
+    right: 16px;
     transform: translateY(-50%);
 }
 
 .input__icon_succes {
+    display: block;
     color: #374FC7;
 }
 
 .input__icon_error {
+    display: block;
     color: #F03D3E;
+}
+
+.input__text {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #ACB5BD;
+    text-transform: uppercase;
 }

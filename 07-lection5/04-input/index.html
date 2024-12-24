@@ -5,23 +5,31 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
-    <body>        
-        <div class="inputs">
-            <input type="text" class="input input_label" placeholder="Placeholder" />
+    <body>     
+            <div class="input">
+                <label class="input__text">label</label>
+                <input type="text" class="input__control" placeholder="Placeholder" />
+            </div>
+        </div> 
+
+            <div class="input">
+                    <label class="input__text">Success</label>
+                <div class="input__wrapper"> 
+                    <div class="input__icon input__icon_succes">
+                        <svg><use href="../../assets/images/sprite.svg#check-mark-circle"></use></svg>
+                    </div>
+                    <input type="text" class="input__control input__success" disabled placeholder="Success" />
+                </div>
         </div>
 
-        <div class="inputs">
-            <div class="input__icon input__icon_succes">
-                <svg><use href="../../assets/images/sprite.svg#check-mark-circle"></use></svg>
-            </div>
-            <input type="text" class="input input_success" disabled placeholder="Success" />
-        </div>
-
-        <div class="inputs">
-            <div class="input__icon input__icon_error">
-                <svg><use href="../../assets/images/sprite.svg#exclamation-mark"></use></svg>
-            </div>
-                <input type="text" class="input input_invalid" disabled placeholder="Error" /> 
+            <div class="input">
+                    <label class="input__text">Error</label>
+                <div class="input__wrapper"> 
+                    <div class="input__icon input__icon_error">
+                        <svg><use href="../../assets/images/sprite.svg#exclamation-mark"></use></svg>
+                    </div>
+                        <input type="text" class="input__control input__invalid" disabled placeholder="Error" /> 
+                </div>
         </div>
     </body>
 </html>
